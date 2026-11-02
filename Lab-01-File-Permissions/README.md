@@ -1,21 +1,21 @@
-LAB 01 — Linux File Permissions
+# LAB 01 — Linux File Permissions
 
-##Objective
+## Objective
 Learn how to create files and directories and manage file permissions in Red Hat Enterprise Linux.
 
-##Environment
+## Environment
 - OS: Red Hat Enterprise Linux
 - Virtualization: VirtualBox
 - Network: Isolated
 
-##Tasks Completed
+## Tasks Completed
 - Created directories using `mkdir`.
 - Created files using `touch`.
 - Wrote text using `echo`.
 - Modified file permissions using `chmod`.
 - Verified permissions using `ls -l` and `stat`.
 
-##Commands Used
+## Commands Used
 
 ```bash
 mkdir -p ~/linux-labs/lab01/reports
@@ -28,7 +28,7 @@ stat -c "%a %n" ~/linux-labs/lab01/reports/sales.txt
 stat -c "%a %n" ~/linux-labs/lab01/support/tickets.txt
 ```
 
-##What I Learned
+## What I Learned
 I learned how Linux permissions work for the owner, group, and others.
 
 - `600`: Owner can read and write.
@@ -36,8 +36,8 @@ I learned how Linux permissions work for the owner, group, and others.
 - `chmod`: Changes file permissions.
 - `stat`: Displays detailed file information.
 
-##Lab Status
+## Lab Status
 Completed
 
-Evidence
+## Evidence
 Screenshots of the verification results will be added.
